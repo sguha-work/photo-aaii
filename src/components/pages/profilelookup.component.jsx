@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from "../utilities/navbar.component";
-import Footer from "../utilities/footer.component";
 
 export default function ProfileLookup() {
   const [email, setEmail] = useState('');
@@ -98,7 +96,7 @@ export default function ProfileLookup() {
 
   return (
     <>
-      <Navbar />
+
       <div className="max-w-[1070px] mx-auto text-center my-5">
         <div className="max-w-[730px] mx-auto text-center">
           <h3 className="lg:text-[45px] text-3xl leading-tight font-semibold">
@@ -260,7 +258,7 @@ export default function ProfileLookup() {
               </form>
             </div>
           </div>
-          <Footer />
+
         </>
       );
     }
