@@ -110,11 +110,11 @@ export default function ProfileLookup() {
         </p>
       </div>
       <div className="max-w-[1192px] mx-auto mt-10 relative">
-        <img
+        {/* <img
           alt="Dots"
           className="absolute -top-5 -left-10 opacity-30"
           src="assets/images/dots.svg"
-        />
+        /> */}
         <div className="p-10 w-full rounded-3xl cursor-pointer bg-white shadow-[0px_100px_60px_-70px_rgba(19,15,48,0.1)] relative">
           <form onSubmit={handleSubmit}>
             <div className="-mx-4 flex flex-wrap relative">
@@ -131,7 +131,7 @@ export default function ProfileLookup() {
                   className="flex flex-col items-center justify-center w-full h-10 border-2 border-gray-300 rounded-lg cursor-pointer bg-gray-50"
                 />
                 <small className="text-muted">
-                  By providing an email address, you agree to Gooey.AI's <a href="https://gooey.ai/privacy">Privacy Policy</a>.
+                  By providing an email address, you agree to Atlas.AI's <a href="https://Atlas.ai/privacy">Privacy Policy</a>.
                 </small>
                 <br />
                 <label>Email Prompt</label>
@@ -251,7 +251,7 @@ export default function ProfileLookup() {
                 )}
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center py-3 px-7 rounded-full text-base font-medium text-white bg-theme-dark shadow-md transition-all duration-200 hover:bg-blue-700 mt-6"
+                  className="inline-flex items-center  text-dark justify-center py-3 px-7 rounded-full text-base font-medium bg-theme-dark shadow-md transition-all duration-200 hover:bg-blue-700 mt-6"
                 >
                   🏃 Submit
                 </button>
